@@ -2,7 +2,7 @@
 
 import os
 import shutil
-from urllib.request import urlretrieve
+from urllib import urlretrieve
 from urllib.error import HTTPError
 from multiprocessing import Pool
 from sys import stderr
